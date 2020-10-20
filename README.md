@@ -1,7 +1,14 @@
-# pannellum-react
+# pannellum-react-next
+
+Forked from [farminf/pannellum-react](https://github.com/farminf/pannellum-react)
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
+
+# Changes for Next.js
+
+CSS is not imported automatically due to Next.js build issues,
+you must import in _app.js the css files as described in Install and Import below.
 
 React Component library for the [Pannellum](https://github.com/mpetroff/pannellum/) project.
 
@@ -22,10 +29,13 @@ Install pannellum-react component
 npm install pannellum-react --save
 ```
 
-Import pannellum-react in your react component file by
+Import pannellum-react in your react component file and the global css:
 
 ```js
-import { Pannellum, PannellumVideo } from "pannellum-react";
+import { Pannellum, PannellumVideo } from "@georgedrpg/pannellum-react-next";
+import "@georgedrpg/pannellum-react-next/es/css/video-js.css";
+import "@georgedrpg/pannellum-react-next/es/css/pannellum.css";
+import "@georgedrpg/pannellum-react-next/es/css/style-textInfo.css";
 ```
 
 > **Note:** Currently only `equirectangular` type is supported! planning to do also `multires`

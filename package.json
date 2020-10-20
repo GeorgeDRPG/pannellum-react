@@ -1,6 +1,6 @@
 {
-  "name": "pannellum-react",
-  "version": "1.2.3",
+  "name": "@georgedrpg/pannellum-react-next",
+  "version": "1.2.4",
   "description": "Pannellum React Component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -37,10 +37,13 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
-  "author": "farminf<farmin.f@gmail.com>",
-  "homepage": "https://github.com/farminf/pannellum-react",
+  "author": "farminf <farmin.f@gmail.com>",
+  "homepage": "https://github.com/GeorgeDRPG/pannellum-react",
   "license": "MIT",
-  "repository": "https://github.com/farminf/pannellum-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeDRPG/pannellum-react.git"
+  },
   "keywords": [
     "react-component",
     "Pannellum",
@@ -48,5 +51,11 @@
     "component",
     "360",
     "vr"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/GeorgeDRPG/pannellum-react/issues"
+  },
+  "directories": {
+    "test": "tests"
+  }
 }
